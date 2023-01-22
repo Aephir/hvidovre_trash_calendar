@@ -7,7 +7,7 @@
   "iot_class": "cloud_polling",
   "name": "Hvidovre Trash Calendar",
   "issue_tracker": "https://github.com/Aephir/hvidovre_trash_calendar/issues",
-  "requirements": ["selenium==4.7.2", "time"],
+  "requirements": ["selenium==4.7.2"],
   "integration_type": "service",
   "version": "0.0.1"
 }
