@@ -1,0 +1,16 @@
+{
+  "config": {
+    "error": {
+      "1": "Unknown error"
+    },
+    "step": {
+      "user": {
+        "data": {
+          "address": "Address"
+        },
+        "description": "Enter your address, both street name, number, and postal code...",
+        "title": "Authentication"
+      }
+    }
+  }
+}
