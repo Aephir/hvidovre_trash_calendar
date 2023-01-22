@@ -33,7 +33,7 @@ class HvidovreTrashCalendarCustomConfigFlow(config_entries.ConfigFlow, domain=DO
         errors: Dict[str, str] = {}
         if user_input is not None:
             self.data = user_input
-            # _LOGGER.debug(user_input.get("schoolschedule"))
+            _LOGGER.debug(user_input.get("address"))
             # if user_input.get("schoolschedule") == None:
             #     self.data[CONF_SCHOOLSCHEDULE] = False
             # else:
