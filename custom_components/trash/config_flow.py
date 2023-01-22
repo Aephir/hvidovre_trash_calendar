@@ -24,7 +24,7 @@ AUTH_SCHEMA = vol.Schema(
 )
 
 
-class AulaCustomConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
+class HvidovreTrashCalendarCustomConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
     """Aula Custom config flow."""
     data: Optional[Dict[str, Any]]
 

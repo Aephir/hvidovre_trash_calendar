@@ -11,6 +11,9 @@
         "description": "Enter your address, both street name, number, and postal code...",
         "title": "Authentication"
       }
+    },
+    "abort": {
+      "already_configured": "Device is already configured"
     }
   }
 }
