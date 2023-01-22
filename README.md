@@ -1,6 +1,9 @@
 # Hvidovre Trash Calendar for Home Assistant
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://github.com/hacs/integration)
 
+# IMPORTANT!!
+## This integration is not currently working. I am trying to figurer out how to integrate in Home Assistant. 
+
 This is an integration that navigates through the [website](https://hvidovre.renoweb.dk/Legacy/selvbetjening/mit_affald.aspx) that can provide a calendar for trash pickup dates in Hvidovre municipality (Denmark), and adds this information to a sensor in Home Assistant.
 
 Unfortunately, this information is only available by navigating through a website inputting an address, and scraping the data from the website. I have requested an API, and will update the integration if this can be provided.    
