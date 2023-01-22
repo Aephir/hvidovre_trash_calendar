@@ -1,4 +1,6 @@
-
+"""
+Constants to import.
+"""
 
 DOMAIN = "trash"
 URL = "https://hvidovre.renoweb.dk/Legacy/selvbetjening/mit_affald.aspx"
