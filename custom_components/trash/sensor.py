@@ -18,6 +18,7 @@ from aiohttp import ClientError
 from homeassistant import config_entries, core
 from homeassistant.components.sensor import PLATFORM_SCHEMA
 from homeassistant.const import (
+    CONF_ADDRESS,
     ATTR_NAME,
     CONF_NAME,
     CONF_PATH,
@@ -35,7 +36,6 @@ import voluptuous as vol
 from .const import (
     URL,
     DOMAIN,
-    ADDRESS,
     ATTR_ADDR,
     ATTR_LAST_UPDATE,
     ATTR_NEXT_PICKUP,
@@ -67,6 +67,8 @@ async def async_setup_entry(
     session = async_get_clientsession(hass)
     sensors = [HvidovreTrashCalendarSensor()]
     async_add_entities(sensors, update_before_add=True)
+    global ADDRESS
+    ADDRESS = config[CONF_ADDRESS]
 
 
 async def async_setup_platform(

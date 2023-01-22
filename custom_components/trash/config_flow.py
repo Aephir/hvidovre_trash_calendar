@@ -2,7 +2,7 @@ import logging
 from typing import Any, Dict, Optional
 
 from homeassistant import config_entries
-from homeassistant.const import CONF_ADDRESS, CONF_URL
+from homeassistant.const import CONF_ADDRESS
 import homeassistant.helpers.config_validation as cv
 from homeassistant.helpers.entity_registry import (
     async_entries_for_config_entry,
@@ -22,6 +22,7 @@ AUTH_SCHEMA = vol.Schema(
         # vol.Optional("ugeplan"): cv.boolean,
     }
 )
+
 
 class AulaCustomConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
     """Aula Custom config flow."""
